@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+    <title>Dice Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">DICE GAME</h1>
+        <h3 class="rule">GAME RULE: <br>The first player to reach 21+ points WINS!</h3>
+        <h2 id="message">Player 1 START the game!</h2>
+        <div class="players">
+            <div id="player1">
+                <h2> Player 1 <br> points <br>
+                    <span id="player1Scoreboard">0</span>
+                </h2>
+                <div id="player1Dice" class="dice active">-</div>
+            </div>
+            <div id="player2">
+                <h2> Player 2 <br> points <br>
+                    <span id="player2Scoreboard">0</span>
+                </h2>
+                <div id="player2Dice" class="dice">-</div>
+            </div>
+        </div>
+        
+        <button id="rollBtn">🎲</button>
+        <button id="resetBtn">🔁</button>
+        <br>
+        <img src="images/bean2.gif"></img>
+        <footer><img src="images/dancing-bean.gif"></img>  {CN} Master 38 John Bridges  <img src="images/dancing-bean.gif"></img></footer>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:wght@500&family=Macondo&family=Quicksand:wght@300&display=swap');
+
+html, body { 
+    --color-1:rgb(11, 11, 11);
+    --color-2: #2f15f3; 
+    --color-3: #f1690e; 
+    --color-4: #ffaaa5; 
+    --color-5: #ff8b94;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 50px;
+    background-image: linear-gradient(135deg, var(--color-1) , var(--color-2));
+    font-family: 'Quicksand', sans-serif;
+    height: 100vh;
+    color: black;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-size: cover;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+    padding: 50px;
+}
+
+.players {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dice {
+    border-radius: 10px;
+    width:80px;
+    height: 80px;
+    background-color: #fff;
+    margin: 0 auto;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button {
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 20px; 
+    margin: 40px auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#rollBtn {
+    background-color:#fff;
+    font-size: 30px;
+}
+
+#resetBtn {
+    background-color: #fff;
+    font-size: 30px;
+}
+
+button:focus {
+    outline: none;
+}
+
+#resetBtn {
+    display: none;
+}
+
+.active {
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+
+h1{
+    font-size: 35px;
+}
+
+h3{
+    font-style: bold;
+    font-size: 20px;
+    color: green;
+}
+
+img{
+    width: 20%;
+    height: auto;
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .headingContent {
+      font-size: 80%;
+    }
+  
+    h2 {
+      font-size: 100%;
+    }
+  
+    .foot {
+      position: relative;
+      bottom: 0px;
+    }
+  }
